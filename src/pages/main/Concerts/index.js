@@ -7,7 +7,7 @@ import {
   Picture,
   Place,
   Wrapper,
-} from "./views";
+} from "../../../styles/pagestyles/main/Concerts/views";
 
 const ConcertItem = ({ date, name, place, img }) => {
   return (

@@ -1,5 +1,11 @@
 import React from "react";
-import { Container, Name, Picture, TextS, Wrapper } from "./views";
+import {
+  Container,
+  Name,
+  Picture,
+  TextS,
+  Wrapper,
+} from "../../../styles/pagestyles/main/News/views";
 
 const NewsCard = ({ img, name, text1, text2 }) => {
   return (

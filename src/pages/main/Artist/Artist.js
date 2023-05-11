@@ -1,5 +1,10 @@
 import React from "react";
-import { Desc, Name, Picture, Wrapper } from "./views";
+import {
+  Desc,
+  Name,
+  Picture,
+  Wrapper,
+} from "../../../styles/pagestyles/main/Artist/views";
 
 const Artist = ({ img, name, desc }) => {
   return (

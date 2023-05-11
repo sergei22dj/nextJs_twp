@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "./views";
-import { ConcertsContainer, Title } from "../main/views";
+import { ConcertsContainer, Title } from "../../styles/pagestyles/main/views";
 import ConcertItem from "../main/Concerts";
 import { concertsData } from "../main/data";
 import ConcertBar from "../main/Concerts/ConcertBar";

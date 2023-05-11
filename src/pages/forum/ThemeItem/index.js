@@ -19,8 +19,8 @@ import {
   TitleContainer,
   TitleName,
   Wrapper,
-} from "./views";
-import { AvatarXS } from "../views";
+} from "../../../styles/pagestyles/forum/ThemeItem/CommentItem/views";
+import { AvatarXS } from "../../../styles/pagestyles/forum/ThemeItem/views";
 import CommentItem from "./CommentItem";
 
 import { EditorState } from "draft-js";
@@ -48,7 +48,7 @@ const ThemeItem = ({ author, text, themename, id }) => {
   const [contentState, setContentState] = useState(null);
   const [data, setData] = useState({
     text: "Empty",
-    author: session.user.email,
+    author: session?.user?.email || "",
     id: id,
   });
 

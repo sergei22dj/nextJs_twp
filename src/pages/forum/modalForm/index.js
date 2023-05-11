@@ -6,7 +6,7 @@ import {
   InputText,
   Title,
   Wrapper,
-} from "./views";
+} from "../../../styles/pagestyles/forum/modalForm/views";
 import Button from "@/components/Button";
 import { useSession } from "next-auth/react";
 import axios from "axios";
@@ -28,7 +28,7 @@ const ModalForm = ({ setModal, update }) => {
   const [data, setData] = useState({
     themename: "",
     text: "contentState",
-    author: session.user.email,
+    author: session?.user?.email || "",
     comments: [],
   });
 

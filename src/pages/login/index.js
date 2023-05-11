@@ -8,7 +8,7 @@ import {
   TabsContainer,
   Text,
   Title,
-} from "./views";
+} from "../../styles/pagestyles/login/views";
 import Button from "@/components/Button";
 import axios from "axios";
 import { loginUser } from "../../../helpers";
@@ -24,8 +24,12 @@ const Login = () => {
     email: "",
     password: "",
   });
-  const { data: session } = useSession();
+
   const router = useRouter();
+  const { data: session } = useSession();
+  if (session) {
+    router.push("/main");
+  }
 
   const regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   // Validatiors ===

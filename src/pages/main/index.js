@@ -13,7 +13,7 @@ import {
   TextWImageContainer,
   Title,
   Wrapper,
-} from "./views";
+} from "../../styles/pagestyles/main/views";
 import Artist from "./Artist/Artist";
 import { concertsData, discoData, mainData, newsData } from "./data";
 import Button from "@/components/Button";

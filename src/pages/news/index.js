@@ -1,6 +1,6 @@
 import React from "react";
-import { Wrapper } from "./views";
-import { NewsContainer, Title } from "../main/views";
+import { Wrapper } from "../../styles/pagestyles/news/views";
+import { NewsContainer, Title } from "../../styles/pagestyles/main/views";
 import NewsCard from "../main/News";
 import { newsData } from "../main/data";
 import { useSession } from "next-auth/react";

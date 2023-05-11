@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "./views";
-import { DiscoContainer, Title } from "../main/views";
+import { DiscoContainer, Title } from "../../styles/pagestyles/main/views";
 import DiscoCard from "../main/Dyscography";
 import { discoData } from "../main/data";
 import { useSession } from "next-auth/react";

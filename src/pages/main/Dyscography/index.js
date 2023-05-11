@@ -1,5 +1,11 @@
 import React from "react";
-import { Container, Name, Picture, TextS, Wrapper } from "./views";
+import {
+  Container,
+  Name,
+  Picture,
+  TextS,
+  Wrapper,
+} from "../../../styles/pagestyles/main/Dyscography/views";
 
 const DiscoCard = ({ img, name, text }) => {
   return (

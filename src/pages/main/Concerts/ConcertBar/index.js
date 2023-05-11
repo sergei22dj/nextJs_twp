@@ -1,5 +1,10 @@
 import React from "react";
-import { Container, Select, Text, Wrapper } from "./views";
+import {
+  Container,
+  Select,
+  Text,
+  Wrapper,
+} from "../../../../styles/pagestyles/main/Concerts/ConcertBar/views";
 
 const ConcertBar = () => {
   return (

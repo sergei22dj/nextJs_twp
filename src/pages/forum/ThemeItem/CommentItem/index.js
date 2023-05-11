@@ -10,7 +10,7 @@ import {
   TitleName,
   Wrapper,
 } from "./views";
-import { AvatarXS } from "../../views";
+import { AvatarXS } from "../../../../styles/pagestyles/forum/ThemeItem/views";
 
 const CommentItem = ({ author, text }) => {
   return (

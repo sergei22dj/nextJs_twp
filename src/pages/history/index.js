@@ -5,8 +5,8 @@ import {
   TextWImageContainer,
   TextWImageContainerRev,
   Wrapper,
-} from "./views";
-import { Text, Title } from "../main/views";
+} from "../../styles/pagestyles/history/views";
+import { Text, Title } from "../../styles/pagestyles/main/views";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { historyData } from "./data";
 import { mainData } from "../main/data";

@@ -13,9 +13,9 @@ import {
   SideText,
   ThemesWrapper,
   Wrapper,
-} from "./views";
+} from "../../styles/pagestyles/forum/ThemeItem/views";
 import Button from "@/components/Button";
-import { Title } from "../main/views";
+import { Title } from "../../styles/pagestyles/main/views";
 import { useSession } from "next-auth/react";
 import ThemeItem from "./ThemeItem";
 import axios from "axios";

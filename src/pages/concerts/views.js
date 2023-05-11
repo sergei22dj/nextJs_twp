@@ -6,3 +6,5 @@ export const Wrapper = styled.div`
   flex-direction: column;
   row-gap: 50px;
 `;
+
+export { default } from "./";

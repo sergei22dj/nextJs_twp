@@ -45,3 +45,4 @@ export const TextArea = styled.div`
   line-height: 22px;
   margin-top: 20px;
 `;
+export { default } from ".";

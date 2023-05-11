@@ -78,3 +78,4 @@ export const concertsData = [
     img: "/images/Concert1.jpg",
   },
 ];
+export { default } from ".";
